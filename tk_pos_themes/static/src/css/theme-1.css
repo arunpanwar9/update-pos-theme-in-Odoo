@@ -1,0 +1,362 @@
+/*
+*    TechKhedut Inc.
+*
+*    Copyright (C) 2021-TODAY TechKhedut (<https://www.techkhedut.com>)
+*    Author: Techkhedut(<https://www.techkhedut.com>)
+*/
+
+/*Screen*/
+.pos, .pos .modal-dialog .popup,
+.product-info-popup table, .pos .popup .body {
+    font-family: "Lato-Lig","Lato","Lucida Grande", Helvetica, Verdana, Arial !important;
+}
+.pos .popup .body {
+    color: #555 !important;
+}
+.pos .screen {
+    background: #ffffff !important;
+}
+.pos {
+    color: #0cc5b7 !important;
+}
+.pos .order .summary .line {
+    border-color: #0cc5b7 !important;
+}
+.pos *::-webkit-scrollbar-thumb {
+    background: #c0c0bf !important;
+}
+.screen .top-content .button {
+    background: #f2fef2 none repeat scroll 0 0 !important;
+    color: #4eda92 !important;
+    border-radius: 2px !important;
+    border: 1px solid #4eda92 !important;
+}
+.pos .clientlist-screen .client-detail>.label {
+    color: #333 !important;
+}
+/*Right pane*/
+.pos .rightpane{
+    background: #f5f5f5;
+}
+/*Product */
+.pos .product-list {
+    padding: 30px 30px !important;
+    gap: 10px !important;
+}
+.pos .product {
+    background: #fff none repeat scroll 0 0 !important;
+    box-shadow: rgb(136 165 191 / 48%) 6px 2px 16px 0px, rgb(255 255 255 / 80%) -6px -2px 16px 0px !important;
+    border-radius: 3px !important;
+    padding: 20px !important;
+    width: 150px !important;
+    height: 151px !important;
+    border: none !important;
+}
+.pos .product .product-info-button {
+    top: -10px !important;
+    left: -10px !important;
+    color: #4eda92 !important;
+    font-size: 13px !important;
+    border: 1px solid #4eda92 !important;
+    border-radius: 2px !important;
+    background: #f2fef2 none repeat scroll 0 0 !important;
+    padding: 4px !important;
+}
+.pos .product .price-tag {
+    top: -10px !important;
+    right: -15px !important;
+    color: #4eda92 !important;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    line-height: 13px !important;
+    background: #f2fef2 none repeat scroll 0 0 !important;
+    padding: 4px 5px !important;
+    border-radius: 2px !important;
+}
+.pos .product .product-img {
+    width: 147px !important;
+    padding-top: 15px !important;
+}
+.pos .product .product-name {
+    text-align: center !important;
+    color: #0cc5b7 !important;
+    font-weight: bold !important;
+    bottom: 10% !important;
+    left: 0 !important;
+    padding: 0 15px !important;
+}
+.pos .product .product-img img {
+    object-fit: scale-down !important;
+    transform-style: preserve-3d !important;
+    transform: scale(1) !important;
+    transition-duration: 0.4s !important;
+}
+.pos .product .product-img img:hover {
+    transform: scale(1.09) !important;
+}
+.pos .product .product-info-button:hover {
+    background-color: #fff !important;
+}
+.product-info-popup .section-product-info-title .global-info-title.product-name,
+.product-info-popup .section-product-info-title .global-info-title,
+.product-info-popup .section-title,
+.pos .popup .title {
+    color: #333 !important;
+}
+.product-info-popup table,
+.pos .popup .body {
+    color: #888 !important;
+}
+
+/*Right pane header*/
+.pos .rightpane-header {
+    background: linear-gradient(135deg, #0cc5b7 0%, #2bd891 100%) !important;
+}
+.pos .breadcrumb-button {
+    color: #fff !important;
+}
+.pos .green-border-bottom {
+    border-bottom: solid 1px rgb(110, 200, 155) !important;
+}
+.pos .pane-border {
+    border-right: solid 2px #28d696 !important;
+}
+
+@media only screen and (max-width : 920px) and (min-width: 769px) {
+
+    .pos .product-list {
+        padding: 10px 15px !important;
+        gap: 15px !important;
+    }
+    .pos .leftpane {
+        max-width: 385px !important;
+    }
+}
+@media only screen and (max-width : 767px) and (min-width: 481px) {
+    .pos .product {
+        margin: 5px !important;
+    }
+    .pos .product-list {
+        padding: 0 !important;
+        gap: 0 !important;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (max-device-width : 480px) {
+    .pos .product {
+        margin: 3px !important;
+    }
+    .pos .product-list {
+        padding: 0 !important;
+        gap: 0 !important;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .pos .product .product-name {
+        bottom: 5% !important;
+        font-size: 12px;
+    }
+}
+@media only screen and (max-device-width : 390px) {
+    .pos .product {
+        margin: 3px !important;
+    }
+    .pos .product-list {
+        padding: 0 !important;
+        gap: 0 !important;
+        display: flex;
+        flex-direction: column;
+    }
+    .pos .product .product-name {
+        bottom: 5% !important;
+        font-size: 12px;
+    }
+}
+/*left pane*/
+.pos .leftpane {
+     background-color: #fff !important;
+}
+.pos .leftpane {
+    border-right: solid 3px rgb(40 214 151) !important;
+}
+/*Control panel*/
+.pos .actionpad .button.pay .pay-circle,
+.pos .mode-button.selected-mode {
+    background: linear-gradient(135deg, #ff934b 0%, #ff5e62 100%) !important;
+}
+.pos .numpad button:hover,
+.pos .actionpad .button:hover {
+    background: #fff !important;
+}
+.pos .control-button {
+    background: #f2fef2 none repeat scroll 0 0 !important;
+    border: 1px solid #4eda92 !important;
+    border-radius: 0 !important;
+    font-size: 18px !important;
+    color: #4eda92 !important;
+    font-weight: 600 !important;
+}
+.pos .actionpad {
+    border-color: #4eda92 !important;
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}
+.pos .actionpad .button,
+.pos .numpad button {
+    background: #f2fef2 none repeat scroll 0 0 !important;
+    border-color: #4eda92 !important;
+}
+.pos .numpad {
+    border-color: #4eda92 !important;
+}
+.pos .leftpane .pads {
+    border-top: solid 2px rgb(40 214 151) !important;
+}
+.pos .control-button:active,
+.pos .numpad button:active,
+.pos .actionpad .button:active {
+    background: #13c9af !important;
+    border-color: #13c9af !important;
+}
+
+/*Header */
+.pos .category-simple-button {
+    background: #fff !important;
+    border-right: solid 1px rgb(40 214 151) !important;
+    border: none !important;
+}
+.pos .breadcrumb:last-child {
+    border-right: 1px solid #ffffff !important;
+}
+.pos .order .order-empty .fa {
+    color: #8be1dc !important;
+}
+
+/*Customer fields*/
+.pos .clientlist-screen .client-list tr:nth-child(even) {
+    background: #d9feff !important;
+    color: #27272c !important;
+}
+.pos .clientlist-screen .client-list thead>tr {
+    background: #f5f5f5 !important;
+    box-shadow: 0 3px 5px rgb(57 63 72 / 30%);
+}
+.pos .order .orderline.selected,
+.pos .clientlist-screen .client-list tr {
+    background: #ffffff !important;
+}
+.pos .clientlist-screen .client-details input, .pos .clientlist-screen .client-details select {
+    border-radius: 0 !important;
+    border: 0;
+    border-bottom: 2px solid #9b9b9b;
+    outline: 0;
+    background: transparent;
+    transition: border-color 0.2s;
+}
+.pos .clientlist-screen .client-details input:focus, .pos .clientlist-screen .client-details select:focus {
+    padding-bottom: 6px;
+    font-weight: 700;
+    border-width: 3px;
+    border-image: linear-gradient(to right, #11998e, #38ef7d);
+    border-image-slice: 1;
+}
+/*edit button*/
+.pos button, .pos a.button {
+    border: 1px solid #4eda92;
+    background: #f2fef2;
+}
+/*category*/
+.pos .categories {
+    border-bottom: none !important;
+    box-shadow: 0 3px 5px rgb(57 63 72 / 30%);
+}
+.pos .category-list {
+    background: rgb(242 254 242) !important;
+    padding: 15px 10px 25px 10px !important;
+    align-items: center;
+    text-align: center;
+}
+.pos .category-button {
+    margin: 8px !important;
+    width: 75px !important;
+    height: 75px !important;
+    background: #fff;
+    border: none !important;
+    border-radius: 50% !important;
+    box-shadow: rgb(136, 165, 191, 48%) 6px 2px 16px 0px, rgb(255, 255, 255, 80%) -6px -2px 16px 0px; !important;
+}
+.pos .category-button .category-img {
+    position: relative;
+    width: inherit !important;
+    height: inherit !important;
+    text-align: inherit !important;
+}
+.pos .category-button .category-img img {
+    max-height: 75px !important;
+    max-width: 75px !important;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+}
+.pos .category-button .category-name {
+    position: relative !important;
+    bottom: 0 !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    left: 0 !important;
+    top: auto;
+    text-align: center;
+    padding-top: 6px !important;
+    color: #0cc5b7 !important;
+}
+
+.pos .searchbox-client input:focus {
+    outline: none;
+     box-shadow: none !important;
+     color: black !important;
+    border-image: linear-gradient(to right, #11998e, #38ef7d) !important;
+    border-image-slice: 1 !important;
+}
+.pos .searchbox-client input {
+    border-image: linear-gradient(to right, #11998e, #38ef7d) !important;
+    border-image-slice: 1 !important;
+}
+/*Payment buttons*/
+.payment-screen .payment-buttons .button,.paymentmethods .button  {
+    background: #f2fef2 !important;
+    border: solid 1px #4eda92 !important;
+    margin-bottom: 2px;
+}
+
+/*print button*/
+.pos .receipt-screen .centered-content .button {
+    background: #ffffff !important;
+    border: solid 1px rgb(12 197 203) !important;
+}
+/*dialog*/
+.pos .modal-dialog .popup {
+    background-color: #ffffff !important;
+}
+/*payment*/
+.splitbill-screen.screen .pay-button .button {
+    background: #ffffff !important;
+    border: solid 1px rgb(13 202 210) !important;
+}
+.pos .clientlist-screen .client-list {
+    font-size: 15px !important;
+}
+.receipt-screen .default-view .actions .buttons .button {
+    border: solid 1px rgb(19 204 214) !important;
+    background: #fff !important;
+}
+.pos .category-list.simple {
+    padding: 0 !important;
+}
+.pos .category-simple-button {
+    background: transparent !important;
+    border: none !important;
+    border-right: solid 1px #4eda92 !important;
+}

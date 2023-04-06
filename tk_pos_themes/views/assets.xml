@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="tk_pos_theme_lime" model="ir.asset">
+            <field name="name">POS Lime theme</field>
+            <field name="bundle">point_of_sale.assets</field>
+            <field name="directive">replace</field>
+            <field name="target">/tk_pos_themes/static/src/css/theme-1.css</field>
+            <field name="path">/tk_pos_themes/static/src/css/theme-2.css</field>
+            <field name="active">False</field>
+        </record>
+        <record id="tk_pos_theme_roseanna" model="ir.asset">
+            <field name="name">POS Roseanna theme</field>
+            <field name="bundle">point_of_sale.assets</field>
+            <field name="directive">replace</field>
+            <field name="target">/tk_pos_themes/static/src/css/theme-1.css</field>
+            <field name="path">/tk_pos_themes/static/src/css/theme-3.css</field>
+            <field name="active">False</field>
+        </record>
+        <record id="tk_pos_theme_blue" model="ir.asset">
+            <field name="name">POS Blue theme</field>
+            <field name="bundle">point_of_sale.assets</field>
+            <field name="directive">replace</field>
+            <field name="target">/tk_pos_themes/static/src/css/theme-1.css</field>
+            <field name="path">/tk_pos_themes/static/src/css/theme-4.css</field>
+            <field name="active">False</field>
+        </record>
+        <record id="tk_pos_theme_orange" model="ir.asset">
+            <field name="name">POS Orange Coral theme</field>
+            <field name="bundle">point_of_sale.assets</field>
+            <field name="directive">replace</field>
+            <field name="target">/tk_pos_themes/static/src/css/theme-1.css</field>
+            <field name="path">/tk_pos_themes/static/src/css/theme-5.css</field>
+            <field name="active">False</field>
+        </record>
+        <record id="tk_pos_theme_dark_shine" model="ir.asset">
+            <field name="name">POS Dark Shine theme</field>
+            <field name="bundle">point_of_sale.assets</field>
+            <field name="directive">replace</field>
+            <field name="target">/tk_pos_themes/static/src/css/theme-1.css</field>
+            <field name="path">/tk_pos_themes/static/src/css/theme-6.css</field>
+            <field name="active">False</field>
+        </record>
+        <record id="tk_pos_theme_purple" model="ir.asset">
+            <field name="name">POS Purple theme</field>
+            <field name="bundle">point_of_sale.assets</field>
+            <field name="directive">replace</field>
+            <field name="target">/tk_pos_themes/static/src/css/theme-1.css</field>
+            <field name="path">/tk_pos_themes/static/src/css/theme-7.css</field>
+            <field name="active">False</field>
+        </record>
+        <record id="tk_pos_theme_back_to_earth" model="ir.asset">
+            <field name="name">POS Back to Earth theme</field>
+            <field name="bundle">point_of_sale.assets</field>
+            <field name="directive">replace</field>
+            <field name="target">/tk_pos_themes/static/src/css/theme-1.css</field>
+            <field name="path">/tk_pos_themes/static/src/css/theme-8.css</field>
+            <field name="active">False</field>
+        </record>
+        <record id="tk_pos_theme_fresh_lemon" model="ir.asset">
+            <field name="name">POS Fresh Lemon theme</field>
+            <field name="bundle">point_of_sale.assets</field>
+            <field name="directive">replace</field>
+            <field name="target">/tk_pos_themes/static/src/css/theme-1.css</field>
+            <field name="path">/tk_pos_themes/static/src/css/theme-9.css</field>
+            <field name="active">False</field>
+        </record>
+        <record id="tk_pos_theme_sunshine" model="ir.asset">
+            <field name="name">POS Sunshine theme</field>
+            <field name="bundle">point_of_sale.assets</field>
+            <field name="directive">replace</field>
+            <field name="target">/tk_pos_themes/static/src/css/theme-1.css</field>
+            <field name="path">/tk_pos_themes/static/src/css/theme-10.css</field>
+            <field name="active">False</field>
+        </record>
+    </data>
+</odoo>

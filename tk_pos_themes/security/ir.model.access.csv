@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+tk_pos_themes.access_pos_theme_settings,access_pos_theme_settings,tk_pos_themes.model_pos_theme_settings,base.group_user,1,1,1,1
+tk_pos_themes.access_pos_theme_type,access_pos_theme_type,tk_pos_themes.model_pos_theme_type,base.group_user,1,1,1,1
+

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+    <record id="pos_theme_settings_view_form" model="ir.ui.view">
+        <field name="name">pos.theme.settings.view.form</field>
+        <field name="model">pos.theme.settings</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="name"/>
+                        </group>
+                    </group>
+                </sheet>
+                <footer>
+                    <button name="set_theme" id="theme_type" type="object" string="Apply" class="btn btn-primary"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    <record model='ir.actions.act_window' id='pos_theme_settings_action'>
+        <field name="name">POS Theme Settings</field>
+        <field name="res_model">pos.theme.settings</field>
+        <field name="view_mode">form</field>
+        <field name="view_id" ref="pos_theme_settings_view_form"/>
+        <field name="target">new</field>
+    </record>
+
+    <menuitem
+            id="menu_pos_theme_settings"
+            name="Theme Settings"
+            parent="point_of_sale.menu_point_config_product"
+            action="pos_theme_settings_action"/>
+
+</odoo>

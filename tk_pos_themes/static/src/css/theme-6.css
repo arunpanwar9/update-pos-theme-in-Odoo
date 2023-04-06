@@ -1,0 +1,415 @@
+/*
+*    TechKhedut Inc.
+*
+*    Copyright (C) 2021-TODAY TechKhedut (<https://www.techkhedut.com>)
+*    Author: Techkhedut(<https://www.techkhedut.com>)
+*/
+
+/*Screen*/
+.pos, .pos .modal-dialog .popup,
+.product-info-popup table, .pos .popup .body{
+    font-family: "Lato-Lig","Lato","Lucida Grande", Helvetica, Verdana, Arial !important;
+}
+.pos .screen {
+    background: #de6262;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #141e30, #de6262);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #141e30, #de6262); !important;
+
+}
+.pos {
+    color: #2c322b !important;
+    font-size: 13px;
+}
+.pos .order .summary .line {
+    border-color: #de6262 !important;
+}
+.pos *::-webkit-scrollbar-thumb {
+    background: #c0c0bf !important;
+}
+.screen .top-content .button {
+    background: #f2fef2 none repeat scroll 0 0 !important;
+    color: #de6262 !important;
+    border-radius: 2px !important;
+    border: 1px solid #f3c1c2 !important;
+    font-size: 16px !important;
+}
+.pos .clientlist-screen .client-detail>.label {
+    color: #333 !important;
+}
+/*Right pane*/
+.pos .popup .body {
+    color: #555 !important;
+}
+.pos .rightpane{
+    background: #de6262;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #141e30, #de6262);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #141e30, #de6262); !important;
+}
+/*Product */
+.pos .product-list {
+    padding: 30px 30px !important;
+    gap: 10px !important;
+}
+.pos .product {
+    padding: 20px !important;
+    width: 150px !important;
+    height: 151px !important;
+    border-radius: 2px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(35px);
+    border: none !important;
+    box-shadow: 0 0 80px rgb(0 0 0 / 25%);
+
+}
+.pos .product .product-info-button {
+    top: -10px !important;
+    left: -10px !important;
+    color: #232822 !important;
+    font-size: 13px !important;
+    border-radius: 2px !important;
+    padding: 4px !important;
+    border: none !important;
+    background: rgba( 255, 255, 255, 0.5 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+}
+.pos .product .price-tag {
+    top: -10px !important;
+    right: -15px !important;
+    color: #232822 !important;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    line-height: 13px !important;
+    padding: 4px 5px !important;
+    border-radius: 2px !important;
+    background: rgba( 255, 255, 255, 0.5 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+}
+.pos .product .product-img {
+    width: 147px !important;
+    padding-top: 15px !important;
+    background: transparent !important;
+}
+.pos .product .product-name {
+    text-align: center !important;
+    color: #ffffff !important;
+    font-weight: bold !important;
+    bottom: 10% !important;
+    left: 0 !important;
+    padding: 0 15px !important;
+    background: transparent !important;
+}
+.pos .product .product-img img {
+    object-fit: scale-down !important;
+    transform-style: preserve-3d !important;
+    transform: scale(1) !important;
+    transition-duration: 0.4s !important;
+}
+.pos .product .product-img img:hover {
+    transform: scale(1.09) !important;
+}
+.pos .product .product-info-button:hover {
+    background-color: #fff !important;
+}
+.product-info-popup .section-product-info-title .global-info-title.product-name,
+.product-info-popup .section-product-info-title .global-info-title,
+.product-info-popup .section-title,
+.pos .popup .title {
+    color: #FFFFFF !important;
+}
+.pos .popup .body {
+    color: #888 !important;
+}
+.product-info-popup table{
+    color: #FFFFFF !important
+}
+
+/*Right pane header*/
+.pos .rightpane-header {
+    background: rgb(255 255 255 / 60%);
+    box-shadow: 0 8px 32px 0 rgb( 31 38 135 / 37% );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border: 1px solid rgb(255 255 255 / 18%);
+}
+.pos .breadcrumb-button {
+    color: #555 !important;
+}
+.pos .green-border-bottom {
+    border-bottom: solid 1px #de6262 !important;
+}
+.pos .pane-border {
+    border-right: solid 2px #de6262 !important;
+}
+
+@media only screen and (max-width : 920px) and (min-width: 769px) {
+
+    .pos .product-list {
+        padding: 10px 15px !important;
+        gap: 15px !important;
+    }
+    .pos .leftpane {
+        max-width: 385px !important;
+    }
+}
+@media only screen and (max-width : 767px) and (min-width: 481px) {
+    .pos .product {
+        margin: 5px !important;
+    }
+    .pos .product-list {
+        padding: 0 !important;
+        gap: 0 !important;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (max-device-width : 480px) {
+    .pos .product {
+        margin: 3px !important;
+    }
+    .pos .product-list {
+        padding: 0 !important;
+        gap: 0 !important;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .pos .product .product-name {
+        bottom: 5% !important;
+        font-size: 12px;
+    }
+}
+@media only screen and (max-device-width : 390px) {
+    .pos .product {
+        margin: 3px !important;
+    }
+    .pos .product-list {
+        padding: 0 !important;
+        gap: 0 !important;
+        display: flex;
+        flex-direction: column;
+    }
+    .pos .product .product-name {
+        bottom: 5% !important;
+        font-size: 12px;
+    }
+}
+
+/*left pane*/
+.pos .leftpane {
+    background: #de6262;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #141e30, #de6262);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #141e30, #de6262); !important;
+}
+.pos .leftpane {
+    border-right: solid 3px rgb(45 51 42 / 70%) !important;
+}
+/*Control panel*/
+.pos .actionpad .button.pay .pay-circle,
+.pos .mode-button.selected-mode {
+    background: #f3c1c2 !important;
+    color: #FFFFFF !important;
+}
+.pos .numpad button:hover,
+.pos .actionpad .button:hover,
+.pos .control-button:hover{
+        background: rgba(255 255 255 / 5%); !important;
+}
+.pos .control-button {
+    border-radius: 0 !important;
+    font-size: 18px !important;
+    color: #FFFFFF !important;
+    font-weight: 600 !important;
+    background: rgba( 255 255 255 / 20% );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border: 1px solid rgb(255 255 255 / 18%);
+}
+.pos .actionpad {
+    border-color: rgb(255 255 255 / 18%) !important;
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}
+.pos .actionpad .button,
+.pos .numpad button {
+    background: rgba( 255, 255, 255, 0.2 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border: 1px solid rgb(255 255 255 / 18%);
+    border-color: rgb(255 255 255 / 18%) !important;
+}
+.pos .numpad {
+    border-color: rgb(255 255 255 / 18%) !important;
+}
+.pos .leftpane .pads {
+    border-top: solid 2px rgb(255 255 255 / 18%); !important;
+}
+.pos .control-button:active,
+.pos .numpad button:active,
+.pos .actionpad .button:active {
+    background: #de6262;
+    color: #192f00;
+    border-color: rgb(255 255 255 / 18%); !important;
+}
+
+/*Header */
+.pos .category-list.simple {
+    padding: 0 !important;
+}
+.pos .category-simple-button {
+    background: transparent !important;
+    border-right: solid 1px #de6262 !important;
+    border: none !important;
+}
+.pos .breadcrumb:last-child {
+    border-right: 2px solid rgb(255 255 255 / 18%) !important;
+}
+.pos .order .order-empty .fa {
+    color: #f3c1c2 !important;
+}
+
+/*Customer fields*/
+.pos .clientlist-screen .client-list tr:nth-child(even) {
+    background: #f3c1c2 !important;
+    color: #555 !important;
+}
+.pos .clientlist-screen .client-list tr.highlight {
+    background: #de6262 !important;
+    color:#FFFFFF !important;
+}
+.pos .clientlist-screen .client-list thead>tr {
+    background: #f5f5f5 !important;
+    box-shadow: 0 3px 5px rgb(57 63 72 / 30%);
+}
+.pos .order .orderline.selected,
+.pos .clientlist-screen .client-list tr {
+    background: #ffffff !important;
+}
+.pos .clientlist-screen .client-details input, .pos .clientlist-screen .client-details select {
+    border-radius: 0 !important;
+    border: 0;
+    border-bottom: 2px solid #9b9b9b;
+    outline: 0;
+    background: transparent;
+    transition: border-color 0.2s;
+}
+.pos .clientlist-screen .client-details input:focus, .pos .clientlist-screen .client-details select:focus {
+    padding-bottom: 6px;
+    font-weight: 700;
+    border-width: 3px;
+    border-image: linear-gradient(to right, #11998e, #38ef7d);
+    border-image-slice: 1;
+}
+/*edit button*/
+.pos .edit-client-button,.pos a.button {
+    background: #de6262 !important;
+    border: 2px solid rgb( 255 255 255 / 18%)!important;
+}
+.payment-screen .payment-buttons .button{
+    background: #f2a492 !important;
+    border: 2px solid rgb( 255 255 255 / 18%)!important;
+}
+/*category*/
+.pos .categories {
+    border-bottom: none !important;
+    box-shadow: 0 3px 5px rgb(57 63 72 / 30%);
+}
+.pos .category-list {
+    padding: 15px 10px 25px 30px !important;
+    background: rgba( 255, 255, 255, 0.1 );
+    box-shadow: 0 8px 32px 0 rgb(31 38 135 /  37% );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border:none !important;
+}
+.pos .category-button {
+    margin: 8px !important;
+    width: 75px !important;
+    height: 75px !important;
+    background: transparent;
+    border: 2px solid rgb( 255 255 255 / 18%)!important;
+    border-radius: 15% !important;
+}
+.pos .category-button .category-img {
+    position: relative;
+    width: inherit !important;
+    height: inherit !important;
+    text-align: inherit !important;
+}
+.pos .category-button .category-img img {
+    max-height: 75px !important;
+    max-width: 75px !important;
+    height: 75px;
+    width: 75px;
+    border-radius: 15%;
+}
+.pos .category-button .category-name {
+    position: relative !important;
+    bottom: 0 !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    left: 0 !important;
+    top: auto;
+    text-align: center;
+    padding-top: 6px !important;
+    color: #ffffff !important;
+    font-weight: 600;
+}
+
+
+.pos .searchbox-client input {
+    background: #de6262 !important;
+    border: 2px solid rgb( 255 255 255 / 18%)!important;
+}
+
+
+/*print button*/
+.pos .receipt-screen .centered-content .button {
+    background: #de6262 !important;
+    border: 2px solid rgb( 255 255 255 / 18%)!important;
+}
+/*dialog*/
+.pos .modal-dialog .popup {
+    background: rgba( 255, 255, 255, 0.5 ) !important;
+    backdrop-filter: blur( 20px ) !important;
+}
+/*payment*/
+.splitbill-screen.screen .pay-button .button {
+    background: #de6262 !important;
+    border: 2px solid rgb( 255 255 255 / 18%)!important;
+}
+.pos .clientlist-screen .client-list {
+    font-size: 15px !important;
+}
+.receipt-screen .default-view .actions .buttons .button {
+    background: #de6262 !important;
+    border: 2px solid rgb( 255 255 255 / 18%)!important;
+}
+
+.payment-status-container .amount.highlight {
+    color: #2c322b !important;
+}
+.paymentmethods .button {
+    background: #f2a492 !important;
+    border: 2px solid rgb( 255 255 255 / 18%)!important;
+    margin-bottom: 2px;
+}
+.paymentline:active {
+    color: #FFFFFF !important;
+    border: none !important;
+}
+.pos .searchbox-client input:focus {
+    box-shadow: 0px 0px 0px 2px #f5f5f5 inset !important;
+    color: #fff !important;
+}
+.payment-screen .paymentlines-empty .total {
+    color: #FFFFFF !important;
+}
+.pos .numpad button, .pos .actionpad .button {
+    color: #FFF !important;
+}
+.screen .top-content .top-content-center {
+    color: #FFF;
+}
